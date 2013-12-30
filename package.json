@@ -1,0 +1,19 @@
+{
+  "name": "ExitFlickr",
+  "version": "1.0.0",
+  "description": "A small app to help with backing-up Flickr photos to your local hard drive.",
+  "main": "app.js",
+  "author": "Amy Cheng <amy.cheng@brooklynmuseum.org>",
+  "license": "MIT",
+  "dependencies": {
+    "flickrapi": "~0.3.5",
+    "colors": "~0.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brooklynmuseum/ExitFlickr.git"
+  },
+    "scripts": {
+    "start": "node app.js"
+  }
+}
